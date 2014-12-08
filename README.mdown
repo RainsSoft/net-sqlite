@@ -118,7 +118,39 @@ You can perform low-level updates of the database using the `Execute` method.
 
 ## Set up relationships
 
-Example for a one2many relationship:
+You can use attributes to setting up a relationships between entities.
+
+#### One to one:
+
+```csharp
+public class User
+{
+	[PrimaryKey]
+	[AutoIncrement]
+	public int Id {get; set;}
+
+
+	[One2One(typeof(Account))]
+	public Account Account {get; set;}
+
+	public string FirstName {get;set;}
+	public string LastName { get; set; }
+}
+
+public class Account
+{
+	[PrimaryKey]
+	[AutoIncrement]
+	public int Id {get; set;}
+	public string Description {get; set;}
+
+	[References(typeof(User))]
+	[ForeignKey]
+	public int OwnerId {get; set;}
+}
+```
+
+#### One to many:
 
 ```csharp
 public class Customer
