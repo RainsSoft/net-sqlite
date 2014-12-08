@@ -29,7 +29,7 @@ This is an open source project that welcomes contributions/suggestions/bug repor
 
 # Example Time!
 
-Please consult the Wiki for, ahem, [complete documentation](https://github.com/praeclarum/net-sqlite/wiki).
+Please consult the Wiki for, ahem, [complete documentation](https://github.com/daynin/net-sqlite/wiki).
 
 The library contains simple attributes that you can use to control the construction of tables. In a simple stock program, you might use:
 
