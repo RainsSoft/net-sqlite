@@ -24,7 +24,7 @@ net-sqlite was designed as a quick and convenient database layer. Its design fol
 
 ## Meta
 
-This is an open source project that welcomes contributions/suggestions/bug reports from those who use it. If you have any ideas on how to improve the library, please [post an issue here on github](https://github.com/praeclarum/net-sqlite/issues). Please check out the [How to Contribute](https://github.com/praeclarum/net-sqlite/wiki/How-to-Contribute).
+This is an open source project that welcomes contributions/suggestions/bug reports from those who use it. If you have any ideas on how to improve the library, please [post an issue here on github](https://github.com/daynin/net-sqlite/issues). Please check out the [How to Contribute](https://github.com/daynin/net-sqlite/wiki/How-To-Contribute).
 
 
 # Example Time!
